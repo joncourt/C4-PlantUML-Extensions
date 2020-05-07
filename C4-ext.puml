@@ -22,6 +22,5 @@
 !define RelA_Neighbor(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".>")
 !define RelA_Neighbor(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".>")
 
-
 !define RelA_Back_Neighbor(e_to, e_from, e_label) Rel_(e_to, e_from, e_label, "<.")
 !define RelA_Back_Neighbor(e_to, e_from, e_label, e_techn) Rel_(e_to, e_from, e_label, e_techn, "<.")
