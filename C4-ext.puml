@@ -1,0 +1,27 @@
+' C4-PlantUML, version 1.0.0
+' https://github.com/RicardoNiepel/C4-PlantUML
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+
+' Extension to define RelA with asynchronous lines
+!define RelA(e_from, e_to, e_label) Rel_(e_from, e_to, e_label, "..>")
+!define RelA(e_from, e_to, e_label, e_techn) Rel_(e_from, e_to, e_label, e_techn, "..>")
+
+!define RelA_D(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".DOWN.>")
+!define RelA_D(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".DOWN.>")
+
+!define RelA_U(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".UP.>")
+!define RelA_U(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".UP.>")
+
+!define RelA_L(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".LEFT.>")
+!define RelA_L(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".LEFT.>")
+
+!define RelA_R(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".RIGHT.>")
+!define RelA_R(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".RIGHT.>")
+
+!define RelA_Neighbor(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, ".>")
+!define RelA_Neighbor(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, ".>")
+
+
+!define RelA_Back_Neighbor(e_to, e_from, e_label) Rel_(e_to, e_from, e_label, "<.")
+!define RelA_Back_Neighbor(e_to, e_from, e_label, e_techn) Rel_(e_to, e_from, e_label, e_techn, "<.")
