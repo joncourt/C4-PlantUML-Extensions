@@ -4,7 +4,7 @@ Extends some things from RicardoNiepel/C4-PlantUML repo
 
 Include with:
 ```
-!includeurl https://raw.githubusercontent.com/joncourt/C4-PlantUML-Extensions/latest/C4-ext.puml
+!includeurl https://raw.githubusercontent.com/joncourt/C4-PlantUML-Extensions/latest/C4_AsyncRelations.puml
 ```
 
 Available commands are:
