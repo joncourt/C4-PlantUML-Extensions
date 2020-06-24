@@ -1,7 +1,7 @@
 ' C4-PlantUML, version 2.0.0
 ' https://github.com/RicardoNiepel/C4-PlantUML
 
-!includeurl raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 
 ' Extension to define RelA with asynchronous lines
 !define RelA(e_from, e_to, e_label) Rel_(e_from, e_to, e_label, "..>")
