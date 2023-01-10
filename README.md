@@ -1,4 +1,5 @@
-# Defunct and no longer maintained. Please instead use the stdlib version of c4 tooling from: https://github.com/plantuml-stdlib/C4-PlantUML
+# Defunct and no longer maintained. 
+Please instead use the stdlib version of c4 tooling from: https://github.com/plantuml-stdlib/C4-PlantUML
 
 
 # C4-PlantUML-Extensions
